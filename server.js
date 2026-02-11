@@ -1,6 +1,6 @@
 import express from "express";
-import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { HttpServerTransport } from "@modelcontextprotocol/sdk/server/http.js";
+import { McpServer } from "@modelcontextprotocol/sdk/server";
+import { HttpServerTransport } from "@modelcontextprotocol/sdk/server/http";
 
 const app = express();
 app.use(express.json());
